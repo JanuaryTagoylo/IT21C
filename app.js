@@ -18,8 +18,8 @@
 
         /* 
 
-         Name:Xhinsade Riri
-         Age:20
-         Name: Tired but Trying Hard
+         Name:January Elijah D. Tagoylo
+         Age:22
+         Status: Saiyans Pride
         
         */
