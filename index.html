@@ -3,57 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Topic 1 - Objects and Classes</title>
-    <link href="">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Muse Dash Charts</title>
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
+            background-color: #f3f3f3; /* Light background */
+            color: #222; /* Dark text */
+            font-family: 'Comic Sans MS', cursive; /* Playful font */
+            background-image: url('https://example.com/musedash-background.jpg'); /* Add a Muse Dash background image */
+            background-size: cover; /* Cover the entire background */
+            background-repeat: no-repeat; /* No repeat */
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 3rem;
+            color: #ff6f61; /* Vibrant Muse Dash color */
+        }
+        h3 {
+            text-align: center;
+            margin: 1.5rem 0;
+            font-size: 1.5rem;
+        }
+        a {
+            color: #ff6f61; /* Vibrant Muse Dash color */
+            text-decoration: none;
+            transition: color 0.3s;
+            font-weight: bold; /* Bold links */
+        }
+        a:hover {
+            color: #ffab91; /* Lighter shade on hover */
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 2rem;
+            border: 2px solid #ff6f61; /* Border matching Muse Dash theme */
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
         }
     </style>
 </head>
-
 <body>
-    <h1> Konnichiwa.</h1>
-    <h1 id="person1-name"></h1>
-    <h1 id="person1-age"></h1>
-    <h1 id="person1-status"></h1>
-
-    
-    <script>
-        //Input
-         const person1 ={
-             name:"January Elijah D. Tagoylo",
-             age:22,
-             status:" Saiyans Pride"
-         }
-
-         //Process 
-
-         //Display the Person Attribute in the Console
-         console.log(" Name:" + person1.name);
-         console.log(" Age:" + person1.age);
-         console.log(" Name:" + person1.status);
-
-         //Display the Persons Attribute to HTML
-         document.getElementById("person1-name").innerHTML = " Name: " + person1.name;
-         document.getElementById("person1-age").innerHTML = " Age: " + person1.age;
-         document.getElementById("person1-status").innerHTML = " Status: " + person1.status;
-
-         //Output
-
-         /* Display the Person Attribute in the Console
-
-          Name:January Elijah D. Tagoylo
-          Age:22
-          Name: Saiyans Pride
-         
-          Display the Persons Attribute to HTML
-
-            Konnichiwa
-            Name: January Elijah D. Tagoylo
-            Age: 22
-            Status: Saiyans Pride
-         */
-        </script>
+    <div class="container" style="margin-top: 2rem;">
+        <h1>Muse Dash OOP Charts</h1>
+        <h3><a href="./linechart.html">Chart 1 - Area Line Chart</a></h3>
+        <h3><a href="./barchart.html">Chart 2 - Bar Chart</a></h3>
+        <h3><a href="./voting-chart.html">Chart 3 - Pie Chart (Voting)</a></h3>
+    </div>
+    <script src="chart.js"></script>  
 </body>
 </html>
+
